@@ -1,16 +1,18 @@
 <snippet>
   <content><![CDATA[
-@Misc{${1:author}-${2:year},
-  OPTkey = {},
-  OPTauthor = {$1},
-  OPTtitle = {},
-  OPThowpublished = {},
-  OPTmonth = {},
-  OPTURL = {},
-  OPTyear = {$2},
-  OPTnote = {},
-  OPTannote = {}
+@Misc{${1:author}${2:year},
+  key = {},
+  author = {$1},
+  title = {},
+  howpublished = {},
+  month = {},
+  URL = {},
+  year = {$2},
+  note = {},
+  annote = {},
+  file = {}
 }
+
 ]]></content>
   <tabTrigger>misc</tabTrigger>
   <scope>text.bibtex</scope>

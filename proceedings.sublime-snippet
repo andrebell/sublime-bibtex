@@ -1,22 +1,24 @@
 <snippet>
   <content><![CDATA[
-@Proceedings{${1:editor}-${2:year},
+@Proceedings{${1:editor}${2:year},
   title = {},
   year = {$2},
-  OPTkey = {},
-  OPTbooktitle = {},
-  OPTeditor = {$1},
-  OPTvolume = {},
-  OPTnumber = {},
-  OPTseries = {},
-  OPTaddress = {},
-  OPTmonth = {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTdoi = {},
-  OPTnote = {},
-  OPTannote = {}
+  key = {},
+  booktitle = {},
+  editor = {$1},
+  volume = {},
+  number = {},
+  series = {},
+  address = {},
+  month = {},
+  organization = {},
+  publisher = {},
+  doi = {},
+  note = {},
+  annote = {},
+  file = {}
 }
+
 ]]></content>
   <tabTrigger>proceedings</tabTrigger>
   <scope>text.bibtex</scope>

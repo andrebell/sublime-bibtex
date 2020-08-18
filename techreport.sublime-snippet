@@ -1,18 +1,21 @@
 <snippet>
   <content><![CDATA[
-@TechReport{${1:author}-${2:year},
+@TechReport{${1:author}${2:year},
   author = {$1},
   title = {$3},
   institution = {$4},
   year = {$2},
-  OPTkey = {},
-  OPTtype = {},
-  OPTnumber = {},
-  OPTaddress = {},
-  OPTmonth = {},
-  OPTnote = {},
-  OPTannote = {}
+  key = {},
+  type = {},
+  number = {},
+  address = {},
+  month = {},
+  note = {},
+  annote = {},
+  file = {},
+  url = {}
 }
+
 ]]></content>
   <tabTrigger>techreport</tabTrigger>
   <scope>text.bibtex</scope>

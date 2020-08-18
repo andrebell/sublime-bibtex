@@ -1,25 +1,27 @@
 <snippet>
   <content><![CDATA[
-@InProceedings{${1:author}-${2:year},
+@InProceedings{${1:author}${2:year},
   author = {$1},
   title = {$3},
-  OPTcrossref = {},
-  OPTkey = {},
-  OPTbooktitle = {},
-  OPTpages = {},
-  OPTyear = {$2},
-  OPTeditor = {},
-  OPTvolume = {},
-  OPTnumber = {},
-  OPTseries = {},
-  OPTaddress = {},
-  OPTdoi = {},
-  OPTmonth = {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTnote = {},
-  OPTannote = {}
+  crossref = {},
+  key = {},
+  booktitle = {},
+  pages = {},
+  year = {$2},
+  editor = {},
+  volume = {},
+  number = {},
+  series = {},
+  address = {},
+  doi = {},
+  month = {},
+  organization = {},
+  publisher = {},
+  note = {},
+  annote = {},
+  file = {}
 }
+
 ]]></content>
   <tabTrigger>inproceedings</tabTrigger>
   <scope>text.bibtex</scope>

@@ -1,22 +1,24 @@
 <snippet>
   <content><![CDATA[
-@Book{${1:author}-${2:year},
+@Book{${1:author}${2:year},
   ALTauthor = {$1},
   ALTeditor = {},
   title = {$3},
   publisher = {$4},
   year = {$2},
-  OPTkey = {},
-  OPTvolume = {},
-  OPTnumber = {},
-  OPTseries = {},
-  OPTaddress = {},
-  OPTedition = {},
-  OPTdoi = {},
-  OPTmonth = {},
-  OPTnote = {},
-  OPTannote = {}
+  key = {},
+  volume = {},
+  number = {},
+  series = {},
+  address = {},
+  edition = {},
+  doi = {},
+  month = {},
+  note = {},
+  annote = {},
+  file = {}
 }
+
 ]]></content>
   <tabTrigger>book</tabTrigger>
   <scope>text.bibtex</scope>

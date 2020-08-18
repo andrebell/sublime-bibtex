@@ -1,19 +1,21 @@
 <snippet>
   <content><![CDATA[
-@Article{${1:author}-${2:year},
+@Article{${1:author}${2:year},
   author = {$1},
   title = {$3},
   journal = {$4},
   year = {$2},
-  OPTdoi = {},
-  OPTkey = {},
-  OPTvolume = {},
-  OPTnumber = {},
-  OPTpages = {},
-  OPTmonth = {},
-  OPTnote = {},
-  OPTannote = {}
+  doi = {},
+  key = {},
+  volume = {},
+  number = {},
+  pages = {},
+  month = {},
+  note = {},
+  annote = {}
+  file = {}
 }
+
 ]]></content>
   <tabTrigger>article</tabTrigger>
   <scope>text.bibtex</scope>
